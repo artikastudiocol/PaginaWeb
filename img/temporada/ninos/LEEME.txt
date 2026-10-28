@@ -1,0 +1,6 @@
+CARPETA DE DÍA DE LOS NIÑOS
+Pon aquí las fotos de esta temporada (cuadradas o verticales, de unos 800 px de ancho, en .jpg).
+Luego abre js/datos.js, busca la temporada "ninos" y dentro de su lista "items" agrega una línea por foto:
+    { img: "temporada/ninos/nombre-de-la-foto.jpg", nombre: "Nombre de la figura", medida: "6 cm x 5 cm" },
+(con una coma después de la línea anterior). La medida es opcional: puedes dejarla como "".
+La página muestra la temporada que toque según la fecha y, mientras esté vacía, dice que las fotos llegarán pronto.
