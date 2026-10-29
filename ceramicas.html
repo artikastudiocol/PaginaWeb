@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cerámicas · Artika Studio</title>
+  <meta name="description" content="Cerámicas de Artika Studio, pintadas a mano o sin pintar: alcancías, superhéroes y muñecos, religiosas, figuras decorativas y materas multiusos.">
+  <meta name="theme-color" content="#8a6ad0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="canonical" href="https://artikastudiocol.github.io/PaginaWeb/ceramicas.html">
+  <link rel="icon" href="img/logos/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="img/logos/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Artika Studio">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:title" content="Cerámicas · Artika Studio">
+  <meta property="og:description" content="Cerámicas de Artika Studio, pintadas a mano o sin pintar: alcancías, superhéroes y muñecos, religiosas, figuras decorativas y materas multiusos.">
+  <meta property="og:url" content="https://artikastudiocol.github.io/PaginaWeb/ceramicas.html">
+  <meta property="og:image" content="https://artikastudiocol.github.io/PaginaWeb/img/logos/compartir.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo de Artika Studio: ¡Donde el arte cobra vida!">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <!-- ========== ENCABEZADO (igual en todas las páginas) ========== -->
+  <header class="cabecera">
+    <div class="contenedor cabecera__fila">
+      <a href="index.html" class="marca" aria-label="Artika Studio, ir al inicio">
+        <img src="img/logos/logo-artika.png" alt="" width="108" height="54">
+        <span class="sr-only">Artika Studio</span>
+      </a>
+      <button class="menu-boton" id="menuBoton" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="menu" id="menu" aria-label="Principal">
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html">Yesos</a>
+        <a href="materas.html">Materas y floreros</a>
+        <a href="temporada.html" id="menuTemporada">Temporada</a>
+        <a href="ceramicas.html" aria-current="page">Cerámicas</a>
+        <a href="comprar.html">Cómo comprar</a>
+      </nav>
+      <div class="redes-cab" aria-label="Redes sociales de Artika Studio">
+        <a class="red-cab red-cab--whatsapp" data-red="whatsapp" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"></a>
+        <a class="red-cab red-cab--instagram" data-red="instagram" href="#" target="_blank" rel="noopener" aria-label="Instagram"></a>
+        <a class="red-cab red-cab--tiktok" data-red="tiktok" href="#" target="_blank" rel="noopener" aria-label="TikTok"></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <noscript><p class="aviso">Para ver las figuras y los precios activa JavaScript, o escríbenos por WhatsApp al +57 314 270 2549.</p></noscript>
+
+
+    <section class="seccion seccion--rosa" id="ceramicas">
+      <div class="contenedor">
+        <h1>Cerámicas</h1>
+        <p class="seccion__intro">Figuras de cerámica para regalar, coleccionar o decorar. Elígelas <strong>pintadas a mano</strong> por nosotros (bajo pedido) o <strong>sin pintar</strong>, para que les des tu propio toque.</p>
+
+        <div class="elige" role="group" aria-label="Elige cómo quieres tu cerámica">
+          <button type="button" class="elige__op elige__op--pintada" data-modo-cer="pintada" aria-pressed="false" aria-controls="ceramicasPanel">
+            <img src="img/ceramicas/angel-salud.jpg" alt="" width="416" height="416">
+            <span class="elige__texto"><strong>🎨 Pintadas</strong><span>Decoradas a mano, listas para regalar.</span></span>
+          </button>
+          <button type="button" class="elige__op elige__op--sin" data-modo-cer="sin" aria-pressed="false" aria-controls="ceramicasPanel">
+            <img src="img/ceramicas/col-dragon.jpg" alt="" width="272" height="390">
+            <span class="elige__texto"><strong>⚪ Sin pintar</strong><span>Cerámica cruda para que la pintes tú.</span></span>
+          </button>
+        </div>
+
+        <div class="cer-panel" id="ceramicasPanel" aria-live="polite">
+          <p class="cer-vacio">👆 Elige una opción para ver las categorías: alcancías, superhéroes y muñecos, religiosas y más.</p>
+        </div>
+
+        <p class="aviso aviso--rosa"><strong>¿No ves la figura que buscas?</strong> Escríbenos y la conseguimos para ti. <a href="#" data-whatsapp="Hola Artika Studio, busco una figura de cerámica que no vi en la página.">Cuéntanos tu idea</a>.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== CONTACTO (igual en todas las páginas) ========== -->
+<footer class="pie" id="contacto">
+    <div class="contenedor pie__contenido">
+      <img class="pie__logo" src="img/logos/logo-general.png" alt="Artika Studio" width="200" height="200" loading="lazy">
+      <h2 class="pie__titulo">Contacto y redes sociales</h2>
+      <p>Estamos aquí para ayudarte. Escríbenos, síguenos en nuestras redes y descubre todo lo que Artika Studio tiene para ti.</p>
+      <div class="redes">
+        <a class="boton boton--whatsapp" id="linkWhatsapp" href="#" target="_blank" rel="noopener">WhatsApp <span id="telVisible"></span></a>
+        <a class="boton boton--instagram" id="linkInstagram" href="#" target="_blank" rel="noopener">Instagram <span id="igVisible"></span></a>
+        <a class="boton boton--tiktok" id="linkTiktok" href="#" target="_blank" rel="noopener">TikTok <span id="ttVisible"></span></a>
+      </div>
+      <p class="pie__copy">© <span id="anio"></span> Artika Studio · ¡Donde el arte cobra vida!</p>
+    </div>
+  </footer>
+
+  <a class="flotante" id="flotanteWhatsapp" href="#" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">WhatsApp</a>
+
+  <script src="js/datos.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/extras.js"></script>
+</body>
+</html>
